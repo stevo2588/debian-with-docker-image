@@ -22,7 +22,7 @@ RUN set -ex; \
 	# apk add --no-cache --virtual .fetch-deps \
 		# curl \
 		# tar \
-    apt-get install -y \
+    apt-get update && apt-get install -y \
         curl \
         tar \
 	; \
