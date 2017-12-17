@@ -2,7 +2,7 @@ version: "3"
 
 services:
     main:
-        image: creativelogic:debian-docker
+        image: stevo25/debian-with-docker-image
         build: "."
         stdin_open: true
         tty: true
